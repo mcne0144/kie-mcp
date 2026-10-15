@@ -1,0 +1,19 @@
+{
+  "name": "kie-mcp",
+  "version": "1.0.0",
+  "description": "kie.ai remote MCP connector for Claude",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "express": "5.3.0",
+    "zod": "4.6.7"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  }
+}
